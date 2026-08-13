@@ -132,20 +132,20 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 /* Application screenshots */
 
 .hero-image {
-    width: 100%;
+    width: 120%;
     max-width: 350px;
     margin: 0 auto;
 }
 
 .hero-image .image-frame {
-    width: 100%;
+    width: 120%;
     overflow: hidden;
     border-radius: 12px;
 }
 
 .hero-image img {
     display: block;
-    width: 100%;
+    width: 120%;
     height: auto;
 }
 
@@ -172,7 +172,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 }
 
 .real-screen {
-  width: 100%;
+  width: 120%;
   overflow: hidden;
   border-radius: 12px;
 }
