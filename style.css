@@ -673,7 +673,11 @@ footer .brand {
 
 .hero-screenshot {
   display: block;
-  width: 130%;
-  height: auto;
+  width: 100vw !important;      /* Ekranın tam genişliği kadar yay */
+  max-width: 1400px;            /* Çok fazla büyümesin dersen bir sınır koyabilirsin */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);  /* Çerçevenin dışına çıkıp kendini ekrana ortalar */
+  height: auto !important;
   border-radius: 0 0 12px 12px;
 }
