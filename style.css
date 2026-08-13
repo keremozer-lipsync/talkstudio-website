@@ -161,7 +161,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .screenshot-card img {
     display: block;
-    width: 100%;
+    width: 120%;
     height: auto;
     object-fit: contain;
 }
@@ -179,7 +179,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .real-screen img {
   display: block;
-  width: 100%;
+  width: 120%;
   height: auto;
 }
 
