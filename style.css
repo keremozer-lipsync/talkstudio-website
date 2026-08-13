@@ -140,7 +140,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 .hero-image .image-frame {
     width: 100%;
     overflow: hidden;
-    border-radius: 14px;
+    border-radius: 17px;
 }
 
 .hero-image img {
@@ -156,7 +156,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .screenshot-card {
     overflow: hidden;
-    border-radius: 14px;
+    border-radius: 17px;
 }
 
 .screenshot-card img {
@@ -174,7 +174,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 .real-screen {
   width: 100%;
   overflow: hidden;
-  border-radius: 14px;
+  border-radius: 17px;
 }
 
 .real-screen img {
