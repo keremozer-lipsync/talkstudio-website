@@ -129,3 +129,45 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
   .about-card { grid-template-columns:1fr; padding:35px; }
   footer { flex-wrap:wrap; }
 }
+/* Application screenshots */
+
+.hero-image {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.hero-image .image-frame {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.screenshots-grid {
+    align-items: start;
+}
+
+.screenshot-card {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.screenshot-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.screenshot-card.large {
+    max-width: 900px;
+    margin: 0 auto;
+}
