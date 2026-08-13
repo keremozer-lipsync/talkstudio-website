@@ -172,7 +172,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 }
 
 .real-screen {
-  width: 120%;
+  width: 100%;
   height: 195px;
   overflow: hidden;
   border-radius: 12px;
