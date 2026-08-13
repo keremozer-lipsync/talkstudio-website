@@ -91,7 +91,7 @@ nav a:hover { color: white; }
 .feature-grid p { margin:0; color:var(--muted); font-size:.9rem; }
 
 .screens-section { max-width:none; padding-left:max(28px, calc((100vw - 1124px)/2)); padding-right:max(28px, calc((100vw - 1124px)/2)); }
-.screens-grid { display:grid; grid-template-columns:repeat(3,1.3fr); gap:20px; }
+.screens-grid { display:grid; grid-template-columns:repeat(3,1.2fr); gap:20px; }
 .shot { margin:0; }
 .fake-screen { height:255px; border-radius:12px; overflow:hidden; border:1px solid #25436d; background:#091529; position:relative; box-shadow:0 20px 50px rgba(0,0,0,.25); }
 .fake-sidebar { position:absolute; left:0; top:0; bottom:0; width:20%; background:#0c1b34; border-right:1px solid var(--line); }
