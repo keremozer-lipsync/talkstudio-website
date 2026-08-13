@@ -145,7 +145,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .hero-image img {
     display: block;
-    width: 120%;
+    width: 100%;
     height: auto;
 }
 
@@ -179,13 +179,13 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .real-screen img {
   display: block;
-  width: 120%;
+  width: 100%;
   height: auto;
 }
 
 .hero-screenshot {
   display: block;
-  width: 100%;
+  width: 120%;
   height: auto;
   border-radius: 0 0 12px 12px;
 }
