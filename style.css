@@ -92,10 +92,11 @@ nav a:hover {
   min-height: 690px;
   margin: auto;
   padding: 100px 28px 80px;
-  display: grid;
-  grid-template-columns: .92fr 1.27fr;
+  display: flex;             /* Grid yerine Flex kullanıyoruz */
+  flex-direction: column;    /* İçerikleri alt alta dizer */
+  align-items: center;       /* Her şeyi yatayda ortalar */
+  text-align: center;        /* Metinleri ortalar */
   gap: 70px;
-  align-items: center;
 }
 
 .eyebrow {
@@ -132,10 +133,12 @@ nav a:hover {
   color: var(--muted);
   max-width: 590px;
   font-size: 1.02rem;
+  margin: 0 auto;           /* EKLENDİ: Paragrafı tam ortaya hizalar */
 }
 
 .hero-actions {
   display: flex;
+  justify-content: center;  /* EKLENDİ: Butonları yatayda ortalar */
   gap: 12px;
   margin-top: 28px;
 }
