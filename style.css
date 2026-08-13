@@ -133,19 +133,19 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .hero-image {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
 }
 
 .hero-image .image-frame {
     width: 100%;
     overflow: hidden;
-    border-radius: 17px;
+    border-radius: 12px;
 }
 
 .hero-image img {
     display: block;
-    width: 100%;
+    width: 120%;
     height: auto;
 }
 
@@ -156,7 +156,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .screenshot-card {
     overflow: hidden;
-    border-radius: 17px;
+    border-radius: 12px;
 }
 
 .screenshot-card img {
@@ -174,12 +174,12 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 .real-screen {
   width: 100%;
   overflow: hidden;
-  border-radius: 17px;
+  border-radius: 12px;
 }
 
 .real-screen img {
   display: block;
-  width: 100%;
+  width: 120%;
   height: auto;
 }
 
