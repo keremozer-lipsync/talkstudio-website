@@ -93,7 +93,7 @@ nav a:hover {
   margin: auto;
   padding: 100px 28px 80px;
   display: grid;
-  grid-template-columns: .92fr 1.08fr;
+  grid-template-columns: .87fr 1.13fr;
   gap: 70px;
   align-items: center;
 }
@@ -673,6 +673,7 @@ footer .brand {
 
 .hero-screenshot {
   display: block;
+  max-width: 600px
   width: 130%;
   height: auto;
   border-radius: 0 0 12px 12px;
