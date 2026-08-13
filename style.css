@@ -133,14 +133,14 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .hero-image {
     width: 100%;
-    max-width: 620px;
+    max-width: 420px;
     margin: 0 auto;
 }
 
 .hero-image .image-frame {
     width: 100%;
     overflow: hidden;
-    border-radius: 18px;
+    border-radius: 14px;
 }
 
 .hero-image img {
@@ -156,7 +156,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .screenshot-card {
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 14px;
 }
 
 .screenshot-card img {
@@ -166,8 +166,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
     object-fit: contain;
 }
 
-
 .screenshot-card.large {
-    max-width: 900px;
+    max-width: 650px;
     margin: 0 auto;
 }
