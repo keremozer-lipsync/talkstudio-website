@@ -1,302 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>AniStudioLS — AI Lip Sync Animation</title>
-
-    <meta
-        name="description"
-        content="AniStudioLS is an AI-assisted lip sync animation tool for creators."
-    >
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TalkStudio — tools for creators. AniStudioLS is an AI-assisted 2D lip sync application currently in beta.">
+  <title>TalkStudio — AniStudioLS</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header class="navbar">
-    <div class="brand">
-        <span class="brand-talk">Talk</span><span class="brand-studio">Studio</span>
-    </div>
-
+  <header class="navbar">
+    <a class="brand" href="#top"><span>Talk</span><b>Studio</b></a>
     <nav>
-        <a href="#features">Features</a>
-        <a href="#screenshots">Screenshots</a>
-        <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#about">About</a>
+      <a class="nav-button" href="#download">Download Beta</a>
     </nav>
-</header>
+  </header>
 
-
-<main>
-
-    <!-- HERO -->
+  <main id="top">
     <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">TALKSTUDIO · CREATOR TOOLS</div>
 
-        <div class="hero-content">
+        <h1><span>AniStudio</span><em>LS</em></h1>
 
-            <div class="product-name">
-                <span>AniStudio</span><strong>LS</strong>
-            </div>
+        <h2>Make your 2D characters talk.</h2>
 
-            <h1>
-                AI-assisted lip sync<br>
-                animation made simple.
-            </h1>
+        <p class="lead">
+          AniStudioLS is an AI-assisted desktop application that analyzes
+          voice recordings and automatically creates lip sync animations
+          for 2D characters.
+        </p>
 
-            <p>
-                AniStudioLS analyzes your voice and automatically creates
-                synchronized mouth animation for your characters.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#screenshots" class="button primary">
-                    Explore AniStudioLS
-                </a>
-
-                <span class="beta-label">
-                    Currently in Beta
-                </span>
-            </div>
-
+        <div class="hero-actions">
+          <a class="button primary" href="#download">Download Beta</a>
+          <a class="button secondary" href="#features">Explore Features</a>
         </div>
 
+        <p class="beta-note">● Currently in beta</p>
+      </div>
 
-        <!-- MAIN APPLICATION SCREENSHOT -->
-        <div class="hero-image">
-
-            <div class="image-frame">
-                <img
-                    src="screenshot-1.png"
-                    alt="AniStudioLS application interface"
-                >
-            </div>
-
+      <div class="app-preview hero-preview" aria-label="AniStudioLS application preview">
+        <div class="window-bar">
+          <i></i><i></i><i></i>
+          <span>AniStudioLS</span>
         </div>
 
+        <img
+          src="screenshot-1.png"
+          alt="AniStudioLS application interface"
+          class="hero-screenshot"
+        >
+      </div>
     </section>
 
 
-    <!-- FEATURES -->
     <section id="features" class="section">
+      <div class="section-heading">
+        <div class="eyebrow">FEATURES</div>
 
-        <div class="section-heading">
-            <span class="eyebrow">WHAT IT DOES</span>
+        <h2>You don't have to animate everything by hand.</h2>
 
-            <h2>
-                Animation without the repetitive work.
-            </h2>
+        <p>
+          AniStudioLS is designed to automate the tedious parts of creating
+          talking 2D characters.
+        </p>
+      </div>
 
-            <p>
-                AniStudioLS is designed to automate the tedious parts of
-                character lip syncing while keeping the creator in control.
-            </p>
-        </div>
+      <div class="feature-grid">
 
+        <article>
+          <span class="icon">◉</span>
+          <h3>Automatic Lip Sync</h3>
+          <p>
+            Analyze voice recordings and automatically place appropriate
+            mouth shapes on the timeline.
+          </p>
+        </article>
 
-        <div class="features-grid">
+        <article>
+          <span class="icon">◇</span>
+          <h3>Custom Characters</h3>
+          <p>
+            Use your own character artwork and mouth shapes to create
+            personalized animations.
+          </p>
+        </article>
 
-            <article class="feature-card">
-                <div class="feature-number">01</div>
+        <article>
+          <span class="icon">◎</span>
+          <h3>Human Voice Detection</h3>
+          <p>
+            Detect speech sections and reduce unnecessary mouth movement
+            during silence and non-speech audio.
+          </p>
+        </article>
 
-                <h3>AI Voice Analysis</h3>
+        <article>
+          <span class="icon">◆</span>
+          <h3>Expression System</h3>
+          <p>
+            Build a foundation for adding facial expressions and different
+            animation states to your timeline.
+          </p>
+        </article>
 
-                <p>
-                    Analyze narration and identify human speech with
-                    high sensitivity, helping the animation focus on
-                    the actual voice.
-                </p>
-            </article>
+        <article>
+          <span class="icon">▣</span>
+          <h3>Long Recording Support</h3>
+          <p>
+            Process long audio recordings in manageable chunks for more
+            reliable animation and video generation.
+          </p>
+        </article>
 
+        <article>
+          <span class="icon">↗</span>
+          <h3>Video Export</h3>
+          <p>
+            Export your finished animation as a video at your chosen
+            resolution.
+          </p>
+        </article>
 
-            <article class="feature-card">
-                <div class="feature-number">02</div>
-
-                <h3>Automatic Lip Sync</h3>
-
-                <p>
-                    Convert speech into timed mouth shapes and automatically
-                    place them along the animation timeline.
-                </p>
-            </article>
-
-
-            <article class="feature-card">
-                <div class="feature-number">03</div>
-
-                <h3>Character Assets</h3>
-
-                <p>
-                    Organize mouth shapes and character assets so they can
-                    be reused across different animations.
-                </p>
-            </article>
-
-
-            <article class="feature-card">
-                <div class="feature-number">04</div>
-
-                <h3>Expression Support</h3>
-
-                <p>
-                    Prepare different character expressions and animation
-                    states for more expressive scenes.
-                </p>
-            </article>
-
-
-            <article class="feature-card">
-                <div class="feature-number">05</div>
-
-                <h3>Timeline Preview</h3>
-
-                <p>
-                    Preview the generated animation and inspect how mouth
-                    movements line up with the narration.
-                </p>
-            </article>
-
-
-            <article class="feature-card">
-                <div class="feature-number">06</div>
-
-                <h3>Video Export</h3>
-
-                <p>
-                    Export the finished animation as a video when your
-                    project is ready.
-                </p>
-            </article>
-
-        </div>
-
+      </div>
     </section>
 
 
-    <!-- SCREENSHOTS -->
     <section id="screenshots" class="section screenshots-section">
 
-        <div class="section-heading">
-            <span class="eyebrow">THE APPLICATION</span>
+      <div class="section-heading">
+        <div class="eyebrow">INSIDE THE APP</div>
 
-            <h2>
-                A closer look at AniStudioLS.
-            </h2>
+        <h2>Take a closer look at AniStudioLS.</h2>
 
-            <p>
-                A few glimpses of the current application interface.
-            </p>
-        </div>
+        <p>
+          A few screenshots from the current application interface.
+        </p>
+      </div>
 
+      <div class="screens-grid">
 
-        <div class="screenshots-grid">
+        <figure class="shot">
+          <div class="real-screen">
+            <img
+              src="screenshot-1.png"
+              alt="AniStudioLS application interface"
+            >
+          </div>
+          <figcaption>Character and mouth configuration</figcaption>
+        </figure>
 
-            <div class="screenshot-card large">
-                <img
-                    src="screenshot-1.png"
-                    alt="AniStudioLS main interface"
-                >
-            </div>
+        <figure class="shot">
+          <div class="real-screen">
+            <img
+              src="screenshot-2.png"
+              alt="AniStudioLS audio analysis and lip sync timeline"
+            >
+          </div>
+          <figcaption>Audio analysis and lip sync timeline</figcaption>
+        </figure>
 
-            <div class="screenshot-card">
-                <img
-                    src="screenshot-2.png"
-                    alt="AniStudioLS interface screenshot"
-                >
-            </div>
+        <figure class="shot">
+          <div class="real-screen">
+            <img
+              src="screenshot-3.png"
+              alt="AniStudioLS preview and video export"
+            >
+          </div>
+          <figcaption>Preview and video export</figcaption>
+        </figure>
 
-            <div class="screenshot-card">
-                <img
-                    src="screenshot-3.png"
-                    alt="AniStudioLS interface screenshot"
-                >
-            </div>
-
-        </div>
-
+      </div>
     </section>
 
 
-    <!-- AI / ABOUT -->
-    <section id="about" class="section about-section">
+    <section id="about" class="section about">
 
-        <div class="about-card">
-
-            <span class="eyebrow">ABOUT THE PROJECT</span>
-
-            <h2>
-                Built with the help of AI tools.
-            </h2>
-
-            <p>
-                AniStudioLS is an independent project developed with the
-                assistance of modern AI coding and creative tools.
-            </p>
-
-            <p>
-                The website itself was also created with AI assistance.
-                The goal is to experiment with how AI can accelerate both
-                software development and creative workflows.
-            </p>
-
-            <div class="beta-box">
-                <strong>Beta software</strong>
-
-                <span>
-                    AniStudioLS is still under active development.
-                    Features, performance and interface elements may change
-                    before the final release.
-                </span>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FINAL CTA -->
-    <section class="cta">
+      <div class="about-card">
 
         <div>
+          <div class="eyebrow">DEVELOPMENT</div>
 
-            <div class="product-name small">
-                <span>AniStudio</span><strong>LS</strong>
-            </div>
+          <h2>
+            Built with AI, designed to make creative work easier.
+          </h2>
 
-            <h2>
-                Turn speech into animation.
-            </h2>
-
-            <p>
-                AniStudioLS is currently being developed.
-            </p>
-
+          <p>
+            AniStudioLS is being developed with the assistance of
+            AI-powered software development tools. The website itself
+            was also created with the help of AI development tools.
+          </p>
         </div>
+
+        <div class="status-box">
+          <strong>Beta</strong>
+          <span>Active development is ongoing.</span>
+        </div>
+
+      </div>
 
     </section>
 
-</main>
+
+    <section id="download" class="download section">
+
+      <div class="download-card">
+
+        <div class="eyebrow">EARLY ACCESS</div>
+
+        <h2>AniStudioLS Beta</h2>
+
+        <p>
+          Try the application and help improve it with your feedback.
+        </p>
+
+        <!-- Replace # with your GitHub Releases or download URL later. -->
+        <a class="button primary big" href="#">Download Beta</a>
+
+        <small>Windows · Beta · Free</small>
+
+      </div>
+
+    </section>
+
+  </main>
 
 
-<footer>
+  <footer>
 
-    <div class="footer-brand">
-        <span class="brand-talk">Talk</span><span class="brand-studio">Studio</span>
+    <div class="brand">
+      <span>Talk</span><b>Studio</b>
     </div>
 
-    <p>
-        AniStudioLS — AI-assisted lip sync animation.
+    <p>Creator tools for animation workflows.</p>
+
+    <p class="footer-note">
+      AniStudioLS is currently in beta.
     </p>
 
-    <p class="copyright">
-        © 2026 AniStudioLS. All rights reserved.
-    </p>
+  </footer>
 
-</footer>
-
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
