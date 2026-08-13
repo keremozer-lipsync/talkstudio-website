@@ -133,7 +133,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 
 .hero-image {
     width: 100%;
-    max-width: 420px;
+    max-width: 210px;
     margin: 0 auto;
 }
 
@@ -167,7 +167,7 @@ footer .brand { margin-right:auto; font-size:1.1rem; }
 }
 
 .screenshot-card.large {
-    max-width: 650px;
+    max-width: 325px;
     margin: 0 auto;
 }
 
